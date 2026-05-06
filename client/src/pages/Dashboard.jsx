@@ -117,7 +117,7 @@ const Dashboard = () => {
     <div className="min-h-screen bg-slate-100 flex">
       <Sidebar />
 
-      <main className="flex-1 ml-64 p-5">
+      <main className="flex-1 lg:ml-[220px] ml-0 p-5">
         <div className="mx-auto w-full max-w-[1600px] space-y-5">
           <motion.div
             initial={{ opacity: 0, y: 16 }}

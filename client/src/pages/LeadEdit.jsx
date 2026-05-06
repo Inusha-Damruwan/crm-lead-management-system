@@ -93,7 +93,7 @@ const LeadEdit = () => {
     return (
       <div className="flex min-h-screen bg-gray-50">
         <Sidebar />
-        <div className="flex-1 ml-64 flex items-center justify-center">
+        <div className="flex-1 lg:ml-[220px] ml-0 flex items-center justify-center">
           <div className="text-center">
             <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-b-2 border-blue-500" />
             <p className="text-gray-600">Loading lead...</p>
@@ -106,7 +106,7 @@ const LeadEdit = () => {
   return (
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar />
-      <div className="flex-1 ml-64 overflow-auto">
+      <div className="flex-1 lg:ml-[220px] ml-0 overflow-auto">
         <div className="bg-white border-b border-gray-200 p-8">
           <button onClick={() => navigate('/leads')} className="mb-2 text-blue-600 hover:text-blue-800">
             ← Back to Leads

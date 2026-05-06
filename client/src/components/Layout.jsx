@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Sidebar />
 
       {/* Main Content */}
-      <main className="flex-1 p-5 overflow-y-auto">
+      <main className="flex-1 lg:ml-[220px] ml-0 p-5 overflow-y-auto">
         {children}
       </main>
 

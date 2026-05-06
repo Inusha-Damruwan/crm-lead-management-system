@@ -76,7 +76,7 @@ const LeadDetail = () => {
     return (
       <div className="flex min-h-screen bg-gray-50">
         <Sidebar />
-        <div className="flex-1 ml-64 flex items-center justify-center">
+        <div className="flex-1 lg:ml-[220px] ml-0 flex items-center justify-center">
           <div className="text-center">
             <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-b-2 border-blue-500" />
             <p className="text-gray-600">Loading lead...</p>
@@ -90,7 +90,7 @@ const LeadDetail = () => {
     return (
       <div className="flex min-h-screen bg-gray-50">
         <Sidebar />
-        <div className="flex-1 ml-64 p-8">
+        <div className="flex-1 lg:ml-[220px] ml-0 p-8">
           <div className="rounded-2xl bg-white p-8 shadow-sm">
             <p className="text-gray-600">Lead not found.</p>
           </div>
@@ -103,7 +103,7 @@ const LeadDetail = () => {
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar />
 
-      <div className="flex-1 ml-64 overflow-auto">
+      <div className="flex-1 lg:ml-[220px] ml-0 overflow-auto">
         <div className="border-b border-gray-200 bg-white p-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
             <div>

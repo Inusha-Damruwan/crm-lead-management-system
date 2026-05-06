@@ -158,7 +158,7 @@ const Profile = () => {
     return (
       <div className="flex min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50">
         <Sidebar />
-        <div className="flex-1 ml-64 flex items-center justify-center">
+        <div className="flex-1 lg:ml-[220px] ml-0 flex items-center justify-center">
           <Loading />
         </div>
       </div>
@@ -169,7 +169,7 @@ const Profile = () => {
     <div className="flex min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50">
       <Sidebar />
 
-      <div className="flex-1 ml-64 overflow-auto">
+      <div className="flex-1 lg:ml-[220px] ml-0 overflow-auto">
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="border-b border-white/20 bg-white/80 backdrop-blur-sm p-8">
           <div className="flex items-center gap-4">

@@ -346,4 +346,8 @@ I learned authentication, CRUD operations, protected routing, responsive UI desi
 
 # 🎉 Thank You
 
+<<<<<<< HEAD
 Thank you for reviewing this project.
+=======
+Thank you for reviewing this project.
+>>>>>>> 7853dac (Fixed authentication navigation and security issue)

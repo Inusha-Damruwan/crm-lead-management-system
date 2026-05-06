@@ -119,7 +119,7 @@ const Leads = () => {
     <div className="flex min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50">
       <Sidebar />
 
-      <div className="flex-1 ml-64 overflow-auto">
+      <div className="flex-1 lg:ml-[220px] ml-0 overflow-auto">
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="p-8 pb-0">
           <div className="relative overflow-hidden rounded-3xl border border-slate-100 bg-white/90 p-6 shadow-lg backdrop-blur-sm md:p-7">

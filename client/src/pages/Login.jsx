@@ -36,7 +36,7 @@ const Login = () => {
       await login(email, password);
 
       // REDIRECT
-      navigate('/dashboard');
+      navigate('/dashboard', { replace: true });
     } catch (err) {
       setError(
         err.response?.data?.message ||
